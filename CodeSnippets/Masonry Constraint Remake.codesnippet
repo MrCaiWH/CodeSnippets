@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__func</string>
+	<string>mas_remake</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>println("\(__FUNCTION__)")</string>
+	<string>[&lt;#view#&gt; mas_remakeConstraints:^(MASConstraintMaker *make){
+    &lt;#code#&gt;
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>196B7AAA-2D71-4F82-B07A-35A72840A18A</string>
+	<string>53203A7C-0C2C-493C-9CAE-8900D9AB68A8</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>测试方法</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>Masonry Constraint Remake</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

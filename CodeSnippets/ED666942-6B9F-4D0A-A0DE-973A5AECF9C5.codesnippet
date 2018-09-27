@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__func</string>
+	<string>xLine</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>println("\(__FUNCTION__)")</string>
+	<string>- (UIView *)lineView {
+    if (_lineView == nil) {
+        _lineView = [[UIView alloc] init];
+        _lineView.backgroundColor = [UIColor colorWithRed:240.0f/255.0f green:240.0f/255.0f blue:240.0f/255.0f alpha:1.0f];
+    }
+    return _lineView;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>196B7AAA-2D71-4F82-B07A-35A72840A18A</string>
+	<string>ED666942-6B9F-4D0A-A0DE-973A5AECF9C5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>测试方法</string>
+	<string>线条</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>线条</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

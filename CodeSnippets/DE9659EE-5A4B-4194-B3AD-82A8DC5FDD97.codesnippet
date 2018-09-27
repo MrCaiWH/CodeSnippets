@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#propertyName#&gt; {
+    if (_&lt;#propertyName#&gt; == nil) {
+        _&lt;#propertyName#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_&lt;#propertyName#&gt; setBackgroundColor:[UIColor colorWithRed:255.0f/255.0f green:255.0f/255.0f blue:255.0f/255.0f alpha:1.0f]];
+        _&lt;#propertyName#&gt;.layer.cornerRadius = 3;
+        _&lt;#propertyName#&gt;.layer.borderColor = [[UIColor colorWithRed:0.0f/255.0f green:179.0f/255.0f blue:160.0f/255.0f alpha:1.0f] CGColor];
+        _&lt;#propertyName#&gt;.layer.borderWidth = 1;
+        [_&lt;#propertyName#&gt; setTitle:@"去评价" forState:UIControlStateNormal];
+        [_&lt;#propertyName#&gt; setTitle:@"我的评价" forState:UIControlStateSelected];
+        _&lt;#propertyName#&gt;.titleLabel.font = [UIFont systemFontOfSize:15.0f];
+        [_&lt;#propertyName#&gt; setTitleColor:[UIColor colorWithRed:0.0f/255.0f green:179.0f/255.0f blue:160.0f/255.0f alpha:1.0f] forState:UIControlStateNormal];
+        [_&lt;#propertyName#&gt; addTarget:self action:@selector(&lt;#propertyName#&gt;Click:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _&lt;#propertyName#&gt;;
+}
+
+- (void)&lt;#propertyName#&gt;Click:(UIButton *)sender {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DE9659EE-5A4B-4194-B3AD-82A8DC5FDD97</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton初始化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton初始化</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

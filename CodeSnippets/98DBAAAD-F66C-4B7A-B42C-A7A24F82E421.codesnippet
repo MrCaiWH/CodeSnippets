@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xLabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UILabel *)&lt;#propertyName#&gt; {
+    if (_&lt;#propertyName#&gt; == nil) {
+        _&lt;#propertyName#&gt; = [[UILabel alloc] init];
+        _&lt;#propertyName#&gt;.textColor = [UIColor colorWithRed:150.0f/255.0f green:159.0f/255.0f blue:169.0f/255.0f alpha:1.0f];
+        _&lt;#propertyName#&gt;.font = [UIFont systemFontOfSize:11.0f];
+//        _&lt;#propertyName#&gt;.font = [UIFont fontWithName:@"PingFangSC-Medium" size:15.0f];
+    }
+    return _&lt;#propertyName#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>98DBAAAD-F66C-4B7A-B42C-A7A24F82E421</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UILabel初始化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UILabel初始化</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

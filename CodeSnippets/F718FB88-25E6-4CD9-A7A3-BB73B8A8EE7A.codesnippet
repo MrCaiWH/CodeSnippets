@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__func</string>
+	<string>xImage</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>println("\(__FUNCTION__)")</string>
+	<string>- (UIImageView *)&lt;#propertyName#&gt; {
+    if (_&lt;#propertyName#&gt; == nil) {
+        _&lt;#propertyName#&gt; = [[UIImageView alloc] init];
+    }
+    return _&lt;#propertyName#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>196B7AAA-2D71-4F82-B07A-35A72840A18A</string>
+	<string>F718FB88-25E6-4CD9-A7A3-BB73B8A8EE7A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>测试方法</string>
+	<string>UIImageView初始化</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>UIImageView初始化</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
