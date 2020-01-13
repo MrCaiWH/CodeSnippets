@@ -16,10 +16,10 @@
         _&lt;#propertyName#&gt;.layer.cornerRadius = 3;
         _&lt;#propertyName#&gt;.layer.borderColor = [[UIColor colorWithRed:0.0f/255.0f green:179.0f/255.0f blue:160.0f/255.0f alpha:1.0f] CGColor];
         _&lt;#propertyName#&gt;.layer.borderWidth = 1;
-        [_&lt;#propertyName#&gt; setTitle:@"去评价" forState:UIControlStateNormal];
-        [_&lt;#propertyName#&gt; setTitle:@"我的评价" forState:UIControlStateSelected];
+        [_&lt;#propertyName#&gt; setTitle:@"" forState:UIControlStateNormal];
+        [_&lt;#propertyName#&gt; setTitle:@"" forState:UIControlStateSelected];
         [_&lt;#propertyName#&gt; setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
-        _&lt;#propertyName#&gt;.titleLabel.font = [UIFont systemFontOfSize:15.0f];
+        _&lt;#propertyName#&gt;.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Medium" size:14];
         [_&lt;#propertyName#&gt; setTitleColor:[UIColor colorWithRed:0.0f/255.0f green:179.0f/255.0f blue:160.0f/255.0f alpha:1.0f] forState:UIControlStateNormal];
         [_&lt;#propertyName#&gt; addTarget:self action:@selector(&lt;#propertyName#&gt;Click:) forControlEvents:UIControlEventTouchUpInside];
     }

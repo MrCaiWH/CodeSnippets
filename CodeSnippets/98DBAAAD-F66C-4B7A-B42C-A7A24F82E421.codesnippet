@@ -13,8 +13,8 @@
     if (_&lt;#propertyName#&gt; == nil) {
         _&lt;#propertyName#&gt; = [[UILabel alloc] init];
         _&lt;#propertyName#&gt;.textColor = [UIColor colorWithRed:150.0f/255.0f green:159.0f/255.0f blue:169.0f/255.0f alpha:1.0f];
-        _&lt;#propertyName#&gt;.font = [UIFont systemFontOfSize:11.0f];
-//        _&lt;#propertyName#&gt;.font = [UIFont fontWithName:@"PingFangSC-Medium" size:15.0f];
+        _&lt;#propertyName#&gt;.font = [UIFont fontWithName:@"PingFangSC-Regular" size:15.0f];
+        _&lt;#propertyName#&gt;.font = [UIFont fontWithName:@"PingFangSC-Medium" size:15.0f];
     }
     return _&lt;#propertyName#&gt;;
 }</string>
